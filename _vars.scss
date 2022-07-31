@@ -6,27 +6,50 @@
 // @use '../base/reset' as *;
 // @use '../abstracts/functions' as *;
 
-
-$clr-prime: hsl(270, 87%, 55%);
-$clr-green: hsl(150, 100%, 55%);
+// colors
+$prime: hsl(270, 87%, 55%);
+$second: hsl(150, 100%, 55%);
 $page-bg: #303030;
-$clr-one: aqua;
-$clr-three: orange;
+$par-bg: darken($page-bg, 30%);
+$orange: orange;
 $clr: #fff;
 $clr-link: royalblue;
 $clr-hover: skyblue;
 $card-bg: #000;
-$box-bg:  $clr-prime;
+// $box-bg:  $clr-prime;
 
-// hero & nav
-$blue-300: hsl(225, 73%, 57%);
-$clr-nav:  $blue-300;  //link
-$hero-bg: linear-gradient(135deg, $blue-300, $clr-prime);
+// fk-variables
+$fk-clr: hsl(270, 87%, 55%);;
+$fk-blue: hsl(225, 75%, 54%);
+$fk-light: lighten($fk-clr, 20%);
+$fk-dark: darken($fk-clr, 20%);
+
 
 // buttons
-$btn__bg: $clr-prime;
-$btn__border: 2px solid $clr-one;
+$btn__clr: $fk-clr;
+$btn__bg: $fk-dark;
+$btn__border: 2px solid $btn__clr;
 $btn__radius: 1rem;
 $btn__hover: whitesmoke;
 $clr-transit: color 350ms ease-in-out;
 $bg-transit: background-color 350ms ease-in-out;
+
+// margins
+$margin-base: 1rem;
+$margin-sm: 0.75rem;
+$margin-med: 1.5rem;
+$margin-lg: 2rem;
+
+// paddings
+$padding-base: 1rem;
+$padding-sm: 0.75rem;
+$padding-med: 1.5rem;
+$padding-lg: 2rem;
+
+// borders
+$base-border: 1px solid $clr;
+$border-style: solid;
+$border-radius-sm: 0.25rem;
+$border-radius-med: 0.5rem;
+$border-radius-lg: 1rem;
+$border-info: 1px solid $fk-blue;
