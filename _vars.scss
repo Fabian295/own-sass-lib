@@ -1,0 +1,32 @@
+/*****************************
+            VARIABLES
+******************************/
+
+// @use '../abstracts/colors' as *;
+// @use '../base/reset' as *;
+// @use '../abstracts/functions' as *;
+
+
+$clr-prime: hsl(270, 87%, 55%);
+$clr-green: hsl(150, 100%, 55%);
+$page-bg: #303030;
+$clr-one: aqua;
+$clr-three: orange;
+$clr: #fff;
+$clr-link: royalblue;
+$clr-hover: skyblue;
+$card-bg: #000;
+$box-bg:  $clr-prime;
+
+// hero & nav
+$blue-300: hsl(225, 73%, 57%);
+$clr-nav:  $blue-300;  //link
+$hero-bg: linear-gradient(135deg, $blue-300, $clr-prime);
+
+// buttons
+$btn__bg: $clr-prime;
+$btn__border: 2px solid $clr-one;
+$btn__radius: 1rem;
+$btn__hover: whitesmoke;
+$clr-transit: color 350ms ease-in-out;
+$bg-transit: background-color 350ms ease-in-out;
