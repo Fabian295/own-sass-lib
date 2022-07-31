@@ -1,0 +1,16 @@
+@use './reset' as *;
+@use './vars' as *;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Quicksand:wght@400;700&display=swap');
+
+
+// advise: use for div styling, rather than the p inside the div
+.info {
+  font-size: 20px;
+  font-family: 'Convergence', 'Quicksand', sans-serif;
+  color: $fk-blue;
+  border: $border-info;
+  border-radius: $border-radius-lg;
+  padding: $padding-lg;
+}
