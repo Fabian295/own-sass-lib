@@ -51,15 +51,26 @@ h1 {
   }
 }
 
-.par {
-  background-color: $par-bg;
-  padding: $padding-med;
-  margin: $margin-med;
 
-   .par__text {
-    background: grey;
-    padding: $padding-sm;
-    border-radius: $border-radius-sm;
+.par {
+
+    &.stand {
+      background-color: $par-bg;
+      padding: $padding-med;
+      margin: $margin-med;
+
+    .par__text {
+      background: grey;
+      padding: $padding-sm;
+      border-radius: $border-radius-sm;
+    }
+
+    h3 {
+      color: $fk-blue;
+      margin: inherit;
+    }
+  
   }
+
 
 }

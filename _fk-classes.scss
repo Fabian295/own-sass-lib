@@ -5,12 +5,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Convergence&family=Quicksand:wght@400;700&display=swap');
 
 
+// Page container, wrapper if you will
+.container {
+  background: #000;
+  width: 95%;
+  margin: $margin-base auto;
+  min-height: inherit;
+}
+
 // advise: use for div styling, rather than the p inside the div
+
+
 .info {
+  width: 90%;
+  margin: $margin-base auto;
   font-size: 20px;
   font-family: 'Convergence', 'Quicksand', sans-serif;
   color: $fk-blue;
   border: $border-info;
   border-radius: $border-radius-lg;
   padding: $padding-lg;
+
+  .par {
+
+    background-color: $par-bg;
+    padding: $padding-med;
+    margin: $margin-med;
+
+    p {
+      background:inherit;
+      padding: $padding-sm;
+      border-radius: $border-radius-sm;
+    }
+
+
+  }
+
+      .sub-info {
+     text-align: center;
+      color: $fk-blue;
+      // margin: 4px auto;
+    }
+
 }
